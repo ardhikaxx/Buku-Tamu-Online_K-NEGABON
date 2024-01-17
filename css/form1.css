@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+.form-1 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-smk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-smk img {
+    height: 100px;
+}
+
+.form-1>img {
+    height: 300px;
+}
+
+.paragraf1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #3C7AC0;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.5px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.btn-mulai {
+    width: 150px;
+    padding: 10px 15px;
+    border: 2px solid transparent;
+    outline: 0;
+    background-color: #3C7AC0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-mulai:hover {
+    background-color: #fff;
+    border: 2px solid #3C7AC0;
+    color: #3C7AC0;
+}
+
+@media only screen and (max-width: 900px) {
+    .logo-smk img {
+        height: 90px;
+    }
+
+    .form-1>img {
+        height: 250px;
+    }
+
+    .paragraf1 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #3C7AC0;
+        font-weight: bold;
+        text-align: center;
+        letter-spacing: 0.5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

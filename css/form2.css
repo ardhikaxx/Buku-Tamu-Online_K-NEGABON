@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+.form-2 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-smk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-smk img {
+    height: 100px;
+}
+
+.form-2>img {
+    height: 200px;
+}
+
+.btn-container {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn-siswa {
+    width: 150px;
+    padding: 10px 15px;
+    border: 2px solid transparent;
+    outline: 0;
+    background-color: #3C7AC0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-siswa:hover {
+    background-color: #fff;
+    border: 2px solid #3C7AC0;
+    color: #3C7AC0;
+}
+
+.btn-umum {
+    width: 150px;
+    padding: 10px 15px;
+    border: 2px solid transparent;
+    outline: 0;
+    background-color: #3C7AC0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-umum:hover {
+    background-color: #fff;
+    border: 2px solid #3C7AC0;
+    color: #3C7AC0;
+}
+
+.paragraf2 {
+    margin-top: 20px;
+    color: #3C7AC0;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-top: 15px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+    .logo-smk img {
+        height: 90px;
+    }
+
+    .form-2>img {
+        height: 180px;
+    }
+
+    .paragraf2 {
+        color: #3C7AC0;
+        text-align: center;
+        line-height: 20px;
+        letter-spacing: 0.5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .btn-container {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
