@@ -84,12 +84,3 @@ body {
         padding-right: 20px;
     }
 }
-
-.animate {
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-}
-
-.animate.show {
-    opacity: 1;
-}

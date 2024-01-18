@@ -9,28 +9,30 @@
     <link rel="stylesheet" href="./css/form2.css">
 </head>
 <body>
-    <div class="form-1" style="display: none;">
-        <div class="logo-smk animate">
+    <div class="form-1" id="form-1">
+        <div class="logo-smk">
             <img src="./assets/Logo.png" alt="logo">
         </div>
-        <img class="ilustrasi animate" src="./assets/ilustrasi1.png" alt="Illustrations">
-        <p class="paragraf1 animate">Silakan isi buku tamu dengan mengklik tombol "Mulai" untuk memulai proses.</p>
-        <button class="btn-mulai animate">Mulai</button>
+        <img class="ilustrasi" src="./assets/ilustrasi1.png" alt="Illustrations">
+        <p class="paragraf1">Silakan isi buku tamu dengan mengklik tombol "Mulai" untuk memulai proses.</p>
+        <button class="btn-mulai" onclick="showForm2()">Mulai</button>
     </div>
-    <div class="form-2">
-        <div class="admin-container animate">
-            <a href="#"></a>
+    <div class="form-2" id="form-2" style="display: none;">
+        <div class="form-container">
+            <div class="admin-container">
+                <a href="#"></a>
+            </div>
+            <div class="logo-smk">
+                <img src="./assets/Logo.png" alt="logo">
+            </div>
+            <img class="ilustrasi" src="./assets/ilustrasi2.png" alt="Illustrations">
+            <div class="btn-container">
+                <a href="./html/siswa.html" class="btn-siswa">Siswa</a>
+                <a href="./html/umum.html" class="btn-umum">Umum</a>
+            </div>
+            <p class="paragraf2"><i class="fas fa-exclamation-circle"></i> Mohon pilih opsi yang sesuai:</p>
+            <span class="paragraf3">Jika Anda merupakan siswa, silakan pilih "Tombol Siswa", dan jika Anda bukan siswa, silakan pilih "Tombol Umum".</span>
         </div>
-        <div class="logo-smk animate">
-            <img src="./assets/Logo.png" alt="logo">
-        </div>
-        <img class="ilustrasi animate" src="./assets/ilustrasi2.png" alt="Illustrations">
-        <div class="btn-container">
-            <a href="./html/siswa.html" class="btn-siswa animate">Siswa</a>
-            <a href="./html/umum.html" class="btn-umum animate">Umum</a>
-        </div>
-        <p class="paragraf2 animate"><i class="fas fa-exclamation-circle"></i> Mohon pilih opsi yang sesuai:</p>
-        <span class="paragraf3 animate">Jika Anda merupakan siswa, silakan pilih "Tombol Siswa", dan jika Anda bukan siswa, silakan pilih "Tombol Umum".</span>
     </div>
 
     <script src="./js/script.js"></script>

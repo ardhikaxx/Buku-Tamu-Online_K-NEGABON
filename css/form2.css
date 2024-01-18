@@ -8,7 +8,7 @@ body {
     background-color: #fff;
 }
 
-.form-2 {
+.form-container {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -29,7 +29,7 @@ body {
     height: 100px;
 }
 
-.form-2>img {
+.form-container>img {
     height: 200px;
 }
 
@@ -88,7 +88,6 @@ body {
     letter-spacing: 0.5px;
     text-align: center;
     margin-top: 15px;
-    text-align: center;
 }
 
 .paragraf3 {

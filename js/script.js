@@ -1,11 +1,7 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const elementsToAnimate = document.querySelectorAll('.animate');
+function showForm2() {
+    var form1 = document.querySelector('.form-1');
+    var form2 = document.querySelector('.form-2');
 
-    function addAnimationClass() {
-        elementsToAnimate.forEach(element => {
-            element.classList.add('show');
-        });
-    }
-
-    addAnimationClass();
-});
+    form1.style.display = 'none';
+    form2.style.display = 'block';
+}
