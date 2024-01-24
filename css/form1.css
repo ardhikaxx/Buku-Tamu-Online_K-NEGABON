@@ -37,11 +37,11 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     color: #3C7AC0;
-    font-weight: bold;
+    font-weight: 600;
     text-align: center;
     letter-spacing: 0.5px;
-    padding-left: 75px;
-    padding-right: 75px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .btn-mulai {
@@ -53,7 +53,7 @@ body {
     color: #fff;
     font-size: 16px;
     font-weight: 700;
-    border-radius: 50px;
+    border-radius: 10px;
     text-align: center;
     cursor: pointer;
 }
@@ -64,23 +64,33 @@ body {
     color: #3C7AC0;
 }
 
+footer {
+    z-index: -1;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+}
+
 @media only screen and (max-width: 900px) {
     .logo-smk img {
         height: 90px;
     }
 
     .form-1>img {
-        height: 250px;
+        height: 260px;
     }
 
     .paragraf1 {
+        line-height: 23px;
         margin-top: 20px;
         margin-bottom: 20px;
-        color: #3C7AC0;
-        font-weight: bold;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 600;
         text-align: center;
         letter-spacing: 0.5px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }

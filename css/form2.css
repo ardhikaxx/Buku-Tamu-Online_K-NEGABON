@@ -27,6 +27,7 @@ body {
 
 .logo-smk img {
     height: 100px;
+    margin-bottom: -10px;
 }
 
 .form-container>img {
@@ -51,7 +52,7 @@ body {
     color: #fff;
     font-size: 16px;
     font-weight: 700;
-    border-radius: 50px;
+    border-radius: 10px;
     text-align: center;
     text-decoration: none;
 }
@@ -71,7 +72,7 @@ body {
     color: #fff;
     font-size: 16px;
     font-weight: 700;
-    border-radius: 50px;
+    border-radius: 10px;
     text-align: center;
     text-decoration: none;
 }
@@ -84,18 +85,10 @@ body {
 
 .paragraf2 {
     margin-top: 20px;
-    color: #ff0000;
-    letter-spacing: 0.5px;
-    text-align: center;
-    margin-top: 15px;
-}
-
-.paragraf3 {
     color: #3C7AC0;
     letter-spacing: 0.5px;
     text-align: center;
     margin-top: 15px;
-    text-align: center;
 }
 
 @media only screen and (max-width: 900px) {
@@ -104,28 +97,19 @@ body {
     }
 
     .form-2>img {
-        height: 180px;
+        height: 260px;
     }
 
     .paragraf2 {
-        color: #ff0000;
-        text-align: center;
-        letter-spacing: 0.5px;
-        padding-left: 20px;
-        padding-right: 20px;
-        margin-bottom: -10px;
-    }
-
-    .paragraf3 {
+        margin-top: 20px;
         color: #3C7AC0;
-        text-align: center;
         letter-spacing: 0.5px;
-        padding-left: 20px;
-        padding-right: 20px;
+        text-align: center;
+        margin-top: 15px;
     }
 
     .btn-container {
-        margin-top: 10px;
+        margin-top: 15px;
         margin-bottom: 20px;
         display: flex;
         align-items: center;

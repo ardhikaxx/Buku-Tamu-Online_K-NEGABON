@@ -4,10 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Siswa | Buku Tamu</title>
+    <link rel="stylesheet" href="../css/siswa.css">
+    <link rel="stylesheet" href="../css/background.css">
 </head>
 <body>
-    <div class="siswa-container">
-        <h1>SISWA</h1>
+    <div class="container">
+        <div class="siswa-img">
+            <img src="../assets/siswa.png" alt="">
+        </div>
+        <div class="siswa-container">
+            <h1>SISWA</h1>
+            <div class="form-siswa">
+                <input class="nama-siswa" value="" type="text" placeholder="Masukkan nama anda...">
+                <input class="kelas-siswa" value="" type="text" placeholder="Masukkan kelas anda...">
+                <input class="telepon-siswa" value="" type="tel" placeholder="Masukkan nomer telepon anda..." oninput="validasiInput(this)">
+                <input class="tujuan-siswa" value="" type="text" placeholder="Masukkan tujuan anda...">
+            </div>
+            <div class="btn-siswa">
+                <button class="btn-simpan">Simpan</button>
+                <a href="../index.html" class="btn-batal">Batal</a>
+            </div>
+        </div>
     </div>
+
+    <div class='box'>
+        <div class='wave -one'></div>
+        <div class='wave -two'></div>
+        <div class='wave -three'></div>
+    </div>
+
+    <script>
+        function validasiInput(inputElement) {
+            inputElement.value = inputElement.value.replace(/\D/g, '');
+        }
+    </script>
 </body>
 </html>

@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.siswa-img img {
+    width: 300px;
+}
+
+.siswa-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.siswa-container h1 {
+    color: #3C7AC0;
+    margin-bottom: 20px;
+}
+
+.form-siswa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.form-siswa input {
+    width: 450px;
+    border: 2px solid #3C7AC0;
+    border-radius: 10px;
+    outline: 0;
+    padding: 10px 15px;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: #ffffff;
+}
+
+.btn-siswa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn-batal {
+    padding: 10px 15px;
+    color: #3C7AC0;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px solid #3C7AC0;
+    font-family: "Poppins", sans-serif;
+    background-color: #ffffff;
+}
+
+.btn-batal:hover {
+    background-color: #3C7AC0;
+    color: #fff;
+    border: 2px solid transparent;
+}
+
+.btn-simpan {
+    outline: 0;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    background-color: #3C7AC0;
+    cursor: pointer;
+}
+
+.btn-simpan:hover {
+    background-color: #fff;
+    color: #3C7AC0;
+    border: 2px solid #3C7AC0;
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .siswa-img img {
+        width: 130px;
+        margin-bottom: -20px;
+    }
+
+    .siswa-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .siswa-container h1 {
+        color: #fff;
+    }
+
+    .form-siswa input {
+        width: 250px;
+        border: 2px solid #3C7AC0;
+        border-radius: 10px;
+        outline: 0;
+        padding: 10px 15px;
+        font-size: 17px;
+        font-weight: 500;
+        background-color: #ffffff;
+    }
+}
